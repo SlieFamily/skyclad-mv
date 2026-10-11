@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>スカイクラッドの観測者 · player</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  html,body{margin:0;background:#000;overflow:hidden;color:#cfe;font:14px/1.4 Consolas,"Yu Gothic UI",monospace}
+  /* the film canvas (size set by src/film/core.js); letterboxed to the window */
+  #out{display:block;position:fixed;inset:0;width:100vw;height:100vh;object-fit:contain}
+  #ui{position:fixed;z-index:2;left:0;right:0;bottom:0;padding:10px 16px 14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;
+      background:linear-gradient(transparent,rgba(0,0,0,.85));transition:opacity .3s}
+  #ui.hide{opacity:0}
+  #ui:hover,#ui:focus-within{opacity:1}
+  button,select{background:#0b1f18;color:#5cf2b0;border:1px solid #2a6b52;border-radius:4px;padding:5px 10px;font:inherit;cursor:pointer}
+  button:disabled,select:disabled{opacity:.45;cursor:default}
+  button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid #ffb347;outline-offset:2px}
+  #seek{flex:1 1 300px;accent-color:#5cf2b0}
+  #time{min-width:120px;color:#ffb347}
+  #msg{flex-basis:100%;color:#7fd8ff;min-height:1.4em}
+  #msg.err{color:#ff5a52}
+  #pick{display:none}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+</head><body>
+<canvas id="out" aria-label="music video"></canvas>
+<audio id="song" src="source/music.flac" preload="auto"></audio>
+
+<div id="ui" role="toolbar" aria-label="player controls">
+  <button id="play" disabled aria-label="play / pause (Space)">▶ 播放</button>
+  <label class="sr" for="seek">seek</label>
+  <input id="seek" type="range" min="0" max="274.591" step="0.01" value="0">
+  <span id="time" aria-live="off">0:00.0 / 4:34.6</span>
+  <label for="res">分辨率</label>
+  <select id="res">
+    <option value="">auto (window)</option>
+    <option value="1280x720">1280×720</option>
+    <option value="1920x1080">1920×1080</option>
+    <option value="2560x1440">2560×1440</option>
+    <option value="3840x2160">3840×2160</option>
+  </select>
+  <label for="fps">fps</label>
+  <select id="fps"><option>30</option><option selected>60</option></select>
+  <button id="export" disabled>⬇ 导出 MP4</button>
+  <button id="pickbtn" type="button">选择 music.flac</button>
+  <input id="pick" type="file" accept=".flac,audio/*">
+  <div id="msg" role="status" aria-live="polite">加载中…</div>
+</div>
+
+<!-- same film scripts as index.html (keep the two lists in sync) -->
+<script>window.ready = false; window.ERRS = []; window.addEventListener('error', e => window.ERRS.push(String(e.message) + ' @' + e.filename + ':' + e.lineno));</script>
+<script src="src/data.js"></script>
+<script src="src/aud.js"></script>
+<script src="src/tex.js"></script>
+<script src="src/lib/kit.js"></script>
+<script src="src/lib/latex.js"></script>
+<script src="src/film/core.js"></script>
+<script src="src/film/post.js"></script>
+<script src="src/film/type.js"></script>
+<script src="src/film/world.js"></script>
+<script src="src/film/akit.js"></script>
+<script src="src/film/timeline.js"></script>
+<script src="src/film/scenes_a.js"></script>
+<script src="src/film/scenes_b.js"></script>
+<script src="src/film/scenes_c.js"></script>
+<script src="src/film/scenes_v2.js"></script>
+<script src="src/film/scenes_a2.js"></script>
+<script src="src/film/shotlist.js"></script>
+<script src="src/film/main.js"></script>
+<!-- Mediabunny (MPL-2.0), WebCodecs MP4 muxer, for in-browser export -->
+<script src="vendor/mediabunny.min.js"></script>
+<script src="src/player_export.js"></script>
+<script src="src/player.js"></script>
+</body></html>

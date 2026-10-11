@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Outputs
+out/
+*.mp4
+*.mkv
+*.webm
+
+# Source assets (copyrighted, user-supplied)
+source/music.flac
+source/*.wav
+source/*.mp3
+
+# Intermediate / logs
+source/align_run.txt
+source/timing_report.txt
+source/beats.err
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary
+tmp/
+temp/

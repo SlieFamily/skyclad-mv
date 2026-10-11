@@ -1,0 +1,2696 @@
+[
+ {
+  "i": 0,
+  "lrc": 26.0,
+  "jp": "過去は離れて行き",
+  "latin": false,
+  "units": [
+   {
+    "text": "過",
+    "read": "か",
+    "mora": 1.0
+   },
+   {
+    "text": "去",
+    "read": "こ",
+    "mora": 1.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   },
+   {
+    "text": "離",
+    "read": "はな",
+    "mora": 2.0
+   },
+   {
+    "text": "れ",
+    "read": "れ",
+    "mora": 1.0
+   },
+   {
+    "text": "て",
+    "read": "て",
+    "mora": 1.0
+   },
+   {
+    "text": "行",
+    "read": "ゆ",
+    "mora": 1.0
+   },
+   {
+    "text": "き",
+    "read": "き",
+    "mora": 1.0
+   }
+  ],
+  "mora": 9.0
+ },
+ {
+  "i": 1,
+  "lrc": 28.0,
+  "jp": "未来は近づくの?",
+  "latin": false,
+  "units": [
+   {
+    "text": "未",
+    "read": "み",
+    "mora": 1.0
+   },
+   {
+    "text": "来",
+    "read": "らい",
+    "mora": 2.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   },
+   {
+    "text": "近",
+    "read": "ちか",
+    "mora": 2.0
+   },
+   {
+    "text": "づ",
+    "read": "づ",
+    "mora": 1.0
+   },
+   {
+    "text": "く",
+    "read": "く",
+    "mora": 1.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "?",
+    "read": "_",
+    "mora": 0.0
+   }
+  ],
+  "mora": 9.0
+ },
+ {
+  "i": 2,
+  "lrc": 31.0,
+  "jp": "観測者はいつか 矛盾に気付く",
+  "latin": false,
+  "units": [
+   {
+    "text": "観",
+    "read": "かん",
+    "mora": 2.0
+   },
+   {
+    "text": "測",
+    "read": "そく",
+    "mora": 2.0
+   },
+   {
+    "text": "者",
+    "read": "しゃ",
+    "mora": 1.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   },
+   {
+    "text": "い",
+    "read": "い",
+    "mora": 1.0
+   },
+   {
+    "text": "つ",
+    "read": "つ",
+    "mora": 1.0
+   },
+   {
+    "text": "か",
+    "read": "か",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "矛",
+    "read": "む",
+    "mora": 1.0
+   },
+   {
+    "text": "盾",
+    "read": "じゅん",
+    "mora": 2.0
+   },
+   {
+    "text": "に",
+    "read": "に",
+    "mora": 1.0
+   },
+   {
+    "text": "気",
+    "read": "き",
+    "mora": 1.0
+   },
+   {
+    "text": "付",
+    "read": "づ",
+    "mora": 1.0
+   },
+   {
+    "text": "く",
+    "read": "く",
+    "mora": 1.0
+   }
+  ],
+  "mora": 16.0
+ },
+ {
+  "i": 3,
+  "lrc": 37.0,
+  "jp": "神の創り出した世界は",
+  "latin": false,
+  "units": [
+   {
+    "text": "神",
+    "read": "かみ",
+    "mora": 2.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "創",
+    "read": "つく",
+    "mora": 2.0
+   },
+   {
+    "text": "り",
+    "read": "り",
+    "mora": 1.0
+   },
+   {
+    "text": "出",
+    "read": "だ",
+    "mora": 1.0
+   },
+   {
+    "text": "し",
+    "read": "し",
+    "mora": 1.0
+   },
+   {
+    "text": "た",
+    "read": "た",
+    "mora": 1.0
+   },
+   {
+    "text": "世",
+    "read": "せ",
+    "mora": 1.0
+   },
+   {
+    "text": "界",
+    "read": "かい",
+    "mora": 2.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   }
+  ],
+  "mora": 13.0
+ },
+ {
+  "i": 4,
+  "lrc": 40.0,
+  "jp": "完全なるもので 絶対の均衡",
+  "latin": false,
+  "units": [
+   {
+    "text": "完",
+    "read": "かん",
+    "mora": 2.0
+   },
+   {
+    "text": "全",
+    "read": "ぜん",
+    "mora": 2.0
+   },
+   {
+    "text": "な",
+    "read": "な",
+    "mora": 1.0
+   },
+   {
+    "text": "る",
+    "read": "る",
+    "mora": 1.0
+   },
+   {
+    "text": "も",
+    "read": "も",
+    "mora": 1.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "で",
+    "read": "で",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "絶",
+    "read": "ぜっ",
+    "mora": 2.0
+   },
+   {
+    "text": "対",
+    "read": "たい",
+    "mora": 2.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "均",
+    "read": "きん",
+    "mora": 2.0
+   },
+   {
+    "text": "衡",
+    "read": "こう",
+    "mora": 2.0
+   }
+  ],
+  "mora": 18.0
+ },
+ {
+  "i": 5,
+  "lrc": 48.0,
+  "jp": "それは折り重なる偶然",
+  "latin": false,
+  "units": [
+   {
+    "text": "そ",
+    "read": "そ",
+    "mora": 1.0
+   },
+   {
+    "text": "れ",
+    "read": "れ",
+    "mora": 1.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   },
+   {
+    "text": "折",
+    "read": "お",
+    "mora": 1.0
+   },
+   {
+    "text": "り",
+    "read": "り",
+    "mora": 1.0
+   },
+   {
+    "text": "重",
+    "read": "かさ",
+    "mora": 2.0
+   },
+   {
+    "text": "な",
+    "read": "な",
+    "mora": 1.0
+   },
+   {
+    "text": "る",
+    "read": "る",
+    "mora": 1.0
+   },
+   {
+    "text": "偶",
+    "read": "ぐう",
+    "mora": 2.0
+   },
+   {
+    "text": "然",
+    "read": "ぜん",
+    "mora": 2.0
+   }
+  ],
+  "mora": 13.0
+ },
+ {
+  "i": 6,
+  "lrc": 52.0,
+  "jp": "宇宙規模の奇跡",
+  "latin": false,
+  "units": [
+   {
+    "text": "宇",
+    "read": "う",
+    "mora": 1.0
+   },
+   {
+    "text": "宙",
+    "read": "ちゅう",
+    "mora": 2.0
+   },
+   {
+    "text": "規",
+    "read": "き",
+    "mora": 1.0
+   },
+   {
+    "text": "模",
+    "read": "ぼ",
+    "mora": 1.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "奇",
+    "read": "き",
+    "mora": 1.0
+   },
+   {
+    "text": "跡",
+    "read": "せき",
+    "mora": 2.0
+   }
+  ],
+  "mora": 9.0
+ },
+ {
+  "i": 7,
+  "lrc": 54.0,
+  "jp": "守られてきた ゲート",
+  "latin": false,
+  "units": [
+   {
+    "text": "守",
+    "read": "まも",
+    "mora": 2.0
+   },
+   {
+    "text": "ら",
+    "read": "ら",
+    "mora": 1.0
+   },
+   {
+    "text": "れ",
+    "read": "れ",
+    "mora": 1.0
+   },
+   {
+    "text": "て",
+    "read": "て",
+    "mora": 1.0
+   },
+   {
+    "text": "き",
+    "read": "き",
+    "mora": 1.0
+   },
+   {
+    "text": "た",
+    "read": "た",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "ゲ",
+    "read": "げ",
+    "mora": 1.0
+   },
+   {
+    "text": "ー",
+    "read": "ー",
+    "mora": 1.0
+   },
+   {
+    "text": "ト",
+    "read": "と",
+    "mora": 1.0
+   }
+  ],
+  "mora": 10.0
+ },
+ {
+  "i": 8,
+  "lrc": 58.0,
+  "jp": "「規制」は終わった",
+  "latin": false,
+  "units": [
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "規",
+    "read": "き",
+    "mora": 1.0
+   },
+   {
+    "text": "制",
+    "read": "せい",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   },
+   {
+    "text": "終",
+    "read": "お",
+    "mora": 1.0
+   },
+   {
+    "text": "わ",
+    "read": "わ",
+    "mora": 1.0
+   },
+   {
+    "text": "っ",
+    "read": "っ",
+    "mora": 1.0
+   },
+   {
+    "text": "た",
+    "read": "た",
+    "mora": 1.0
+   }
+  ],
+  "mora": 8.0
+ },
+ {
+  "i": 9,
+  "lrc": 61.0,
+  "jp": "Open the eyes",
+  "latin": true,
+  "units": [
+   {
+    "text": "Open",
+    "read": "2",
+    "mora": 2.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "the",
+    "read": "1",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "eyes",
+    "read": "1",
+    "mora": 1.0
+   }
+  ],
+  "mora": 4.0
+ },
+ {
+  "i": 10,
+  "lrc": 61.0,
+  "jp": "「０」が過去で 「１」が未来",
+  "latin": false,
+  "units": [
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "０",
+    "read": "ぜろ",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "が",
+    "read": "が",
+    "mora": 1.0
+   },
+   {
+    "text": "過",
+    "read": "か",
+    "mora": 1.0
+   },
+   {
+    "text": "去",
+    "read": "こ",
+    "mora": 1.0
+   },
+   {
+    "text": "で",
+    "read": "で",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "１",
+    "read": "いち",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "が",
+    "read": "が",
+    "mora": 1.0
+   },
+   {
+    "text": "未",
+    "read": "み",
+    "mora": 1.0
+   },
+   {
+    "text": "来",
+    "read": "らい",
+    "mora": 2.0
+   }
+  ],
+  "mora": 12.0
+ },
+ {
+  "i": 11,
+  "lrc": 64.0,
+  "jp": "「今」は何処にもない",
+  "latin": false,
+  "units": [
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "今",
+    "read": "いま",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   },
+   {
+    "text": "何",
+    "read": "ど",
+    "mora": 1.0
+   },
+   {
+    "text": "処",
+    "read": "こ",
+    "mora": 1.0
+   },
+   {
+    "text": "に",
+    "read": "に",
+    "mora": 1.0
+   },
+   {
+    "text": "も",
+    "read": "も",
+    "mora": 1.0
+   },
+   {
+    "text": "な",
+    "read": "な",
+    "mora": 1.0
+   },
+   {
+    "text": "い",
+    "read": "い",
+    "mora": 1.0
+   }
+  ],
+  "mora": 9.0
+ },
+ {
+  "i": 12,
+  "lrc": 67.0,
+  "jp": "背く事の出来ぬ ロジック",
+  "latin": false,
+  "units": [
+   {
+    "text": "背",
+    "read": "そむ",
+    "mora": 2.0
+   },
+   {
+    "text": "く",
+    "read": "く",
+    "mora": 1.0
+   },
+   {
+    "text": "事",
+    "read": "こと",
+    "mora": 2.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "出",
+    "read": "で",
+    "mora": 1.0
+   },
+   {
+    "text": "来",
+    "read": "き",
+    "mora": 1.0
+   },
+   {
+    "text": "ぬ",
+    "read": "ぬ",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "ロ",
+    "read": "ろ",
+    "mora": 1.0
+   },
+   {
+    "text": "ジ",
+    "read": "じ",
+    "mora": 1.0
+   },
+   {
+    "text": "ッ",
+    "read": "っ",
+    "mora": 1.0
+   },
+   {
+    "text": "ク",
+    "read": "く",
+    "mora": 1.0
+   }
+  ],
+  "mora": 13.0
+ },
+ {
+  "i": 13,
+  "lrc": 72.0,
+  "jp": "Open the eyes",
+  "latin": true,
+  "units": [
+   {
+    "text": "Open",
+    "read": "2",
+    "mora": 2.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "the",
+    "read": "1",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "eyes",
+    "read": "1",
+    "mora": 1.0
+   }
+  ],
+  "mora": 4.0
+ },
+ {
+  "i": 14,
+  "lrc": 73.0,
+  "jp": "並行する無数の線 選択は冒涜へ",
+  "latin": false,
+  "units": [
+   {
+    "text": "並",
+    "read": "へい",
+    "mora": 2.0
+   },
+   {
+    "text": "行",
+    "read": "こう",
+    "mora": 2.0
+   },
+   {
+    "text": "す",
+    "read": "す",
+    "mora": 1.0
+   },
+   {
+    "text": "る",
+    "read": "る",
+    "mora": 1.0
+   },
+   {
+    "text": "無",
+    "read": "む",
+    "mora": 1.0
+   },
+   {
+    "text": "数",
+    "read": "すう",
+    "mora": 2.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "線",
+    "read": "せん",
+    "mora": 2.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "選",
+    "read": "せん",
+    "mora": 2.0
+   },
+   {
+    "text": "択",
+    "read": "たく",
+    "mora": 2.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   },
+   {
+    "text": "冒",
+    "read": "ぼう",
+    "mora": 2.0
+   },
+   {
+    "text": "涜",
+    "read": "とく",
+    "mora": 2.0
+   },
+   {
+    "text": "へ",
+    "read": "へ",
+    "mora": 1.0
+   }
+  ],
+  "mora": 22.0
+ },
+ {
+  "i": 15,
+  "lrc": 79.0,
+  "jp": "僕らの「存在」さえ疑う",
+  "latin": false,
+  "units": [
+   {
+    "text": "僕",
+    "read": "ぼく",
+    "mora": 2.0
+   },
+   {
+    "text": "ら",
+    "read": "ら",
+    "mora": 1.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "存",
+    "read": "そん",
+    "mora": 2.0
+   },
+   {
+    "text": "在",
+    "read": "ざい",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "さ",
+    "read": "さ",
+    "mora": 1.0
+   },
+   {
+    "text": "え",
+    "read": "え",
+    "mora": 1.0
+   },
+   {
+    "text": "疑",
+    "read": "うたが",
+    "mora": 3.0
+   },
+   {
+    "text": "う",
+    "read": "う",
+    "mora": 1.0
+   }
+  ],
+  "mora": 14.0
+ },
+ {
+  "i": 16,
+  "lrc": 85.0,
+  "jp": "その目に映る景色は",
+  "latin": false,
+  "units": [
+   {
+    "text": "そ",
+    "read": "そ",
+    "mora": 1.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "目",
+    "read": "め",
+    "mora": 1.0
+   },
+   {
+    "text": "に",
+    "read": "に",
+    "mora": 1.0
+   },
+   {
+    "text": "映",
+    "read": "うつ",
+    "mora": 2.0
+   },
+   {
+    "text": "る",
+    "read": "る",
+    "mora": 1.0
+   },
+   {
+    "text": "景",
+    "read": "け",
+    "mora": 1.0
+   },
+   {
+    "text": "色",
+    "read": "しき",
+    "mora": 2.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   }
+  ],
+  "mora": 11.0
+ },
+ {
+  "i": 17,
+  "lrc": 87.0,
+  "jp": "「収束」をする",
+  "latin": false,
+  "units": [
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "収",
+    "read": "しゅう",
+    "mora": 2.0
+   },
+   {
+    "text": "束",
+    "read": "そく",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "を",
+    "read": "を",
+    "mora": 1.0
+   },
+   {
+    "text": "す",
+    "read": "す",
+    "mora": 1.0
+   },
+   {
+    "text": "る",
+    "read": "る",
+    "mora": 1.0
+   }
+  ],
+  "mora": 7.0
+ },
+ {
+  "i": 18,
+  "lrc": 112.0,
+  "jp": "二つの針が指す 時間の概念も",
+  "latin": false,
+  "units": [
+   {
+    "text": "二",
+    "read": "ふた",
+    "mora": 2.0
+   },
+   {
+    "text": "つ",
+    "read": "つ",
+    "mora": 1.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "針",
+    "read": "はり",
+    "mora": 2.0
+   },
+   {
+    "text": "が",
+    "read": "が",
+    "mora": 1.0
+   },
+   {
+    "text": "指",
+    "read": "さ",
+    "mora": 1.0
+   },
+   {
+    "text": "す",
+    "read": "す",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "時",
+    "read": "じ",
+    "mora": 1.0
+   },
+   {
+    "text": "間",
+    "read": "かん",
+    "mora": 2.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "概",
+    "read": "がい",
+    "mora": 2.0
+   },
+   {
+    "text": "念",
+    "read": "ねん",
+    "mora": 2.0
+   },
+   {
+    "text": "も",
+    "read": "も",
+    "mora": 1.0
+   }
+  ],
+  "mora": 18.0
+ },
+ {
+  "i": 19,
+  "lrc": 117.0,
+  "jp": "観測者しだいで 歪みを見せる",
+  "latin": false,
+  "units": [
+   {
+    "text": "観",
+    "read": "かん",
+    "mora": 2.0
+   },
+   {
+    "text": "測",
+    "read": "そく",
+    "mora": 2.0
+   },
+   {
+    "text": "者",
+    "read": "しゃ",
+    "mora": 1.0
+   },
+   {
+    "text": "し",
+    "read": "し",
+    "mora": 1.0
+   },
+   {
+    "text": "だ",
+    "read": "だ",
+    "mora": 1.0
+   },
+   {
+    "text": "い",
+    "read": "い",
+    "mora": 1.0
+   },
+   {
+    "text": "で",
+    "read": "で",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "歪",
+    "read": "ゆが",
+    "mora": 2.0
+   },
+   {
+    "text": "み",
+    "read": "み",
+    "mora": 1.0
+   },
+   {
+    "text": "を",
+    "read": "を",
+    "mora": 1.0
+   },
+   {
+    "text": "見",
+    "read": "み",
+    "mora": 1.0
+   },
+   {
+    "text": "せ",
+    "read": "せ",
+    "mora": 1.0
+   },
+   {
+    "text": "る",
+    "read": "る",
+    "mora": 1.0
+   }
+  ],
+  "mora": 16.0
+ },
+ {
+  "i": 20,
+  "lrc": 123.0,
+  "jp": "神に与えられた英知は",
+  "latin": false,
+  "units": [
+   {
+    "text": "神",
+    "read": "かみ",
+    "mora": 2.0
+   },
+   {
+    "text": "に",
+    "read": "に",
+    "mora": 1.0
+   },
+   {
+    "text": "与",
+    "read": "あた",
+    "mora": 2.0
+   },
+   {
+    "text": "え",
+    "read": "え",
+    "mora": 1.0
+   },
+   {
+    "text": "ら",
+    "read": "ら",
+    "mora": 1.0
+   },
+   {
+    "text": "れ",
+    "read": "れ",
+    "mora": 1.0
+   },
+   {
+    "text": "た",
+    "read": "た",
+    "mora": 1.0
+   },
+   {
+    "text": "英",
+    "read": "えい",
+    "mora": 2.0
+   },
+   {
+    "text": "知",
+    "read": "ち",
+    "mora": 1.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   }
+  ],
+  "mora": 13.0
+ },
+ {
+  "i": 21,
+  "lrc": 127.0,
+  "jp": "必ず「果て」がある 絶対の領域",
+  "latin": false,
+  "units": [
+   {
+    "text": "必",
+    "read": "かなら",
+    "mora": 3.0
+   },
+   {
+    "text": "ず",
+    "read": "ず",
+    "mora": 1.0
+   },
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "果",
+    "read": "は",
+    "mora": 1.0
+   },
+   {
+    "text": "て",
+    "read": "て",
+    "mora": 1.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "が",
+    "read": "が",
+    "mora": 1.0
+   },
+   {
+    "text": "あ",
+    "read": "あ",
+    "mora": 1.0
+   },
+   {
+    "text": "る",
+    "read": "る",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "絶",
+    "read": "ぜっ",
+    "mora": 2.0
+   },
+   {
+    "text": "対",
+    "read": "たい",
+    "mora": 2.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "領",
+    "read": "りょう",
+    "mora": 2.0
+   },
+   {
+    "text": "域",
+    "read": "いき",
+    "mora": 2.0
+   }
+  ],
+  "mora": 18.0
+ },
+ {
+  "i": 22,
+  "lrc": 134.0,
+  "jp": "それは愚か故の偶然",
+  "latin": false,
+  "units": [
+   {
+    "text": "そ",
+    "read": "そ",
+    "mora": 1.0
+   },
+   {
+    "text": "れ",
+    "read": "れ",
+    "mora": 1.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   },
+   {
+    "text": "愚",
+    "read": "おろ",
+    "mora": 2.0
+   },
+   {
+    "text": "か",
+    "read": "か",
+    "mora": 1.0
+   },
+   {
+    "text": "故",
+    "read": "ゆえ",
+    "mora": 2.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "偶",
+    "read": "ぐう",
+    "mora": 2.0
+   },
+   {
+    "text": "然",
+    "read": "ぜん",
+    "mora": 2.0
+   }
+  ],
+  "mora": 13.0
+ },
+ {
+  "i": 23,
+  "lrc": 138.0,
+  "jp": "招かれざる奇跡",
+  "latin": false,
+  "units": [
+   {
+    "text": "招",
+    "read": "まね",
+    "mora": 2.0
+   },
+   {
+    "text": "か",
+    "read": "か",
+    "mora": 1.0
+   },
+   {
+    "text": "れ",
+    "read": "れ",
+    "mora": 1.0
+   },
+   {
+    "text": "ざ",
+    "read": "ざ",
+    "mora": 1.0
+   },
+   {
+    "text": "る",
+    "read": "る",
+    "mora": 1.0
+   },
+   {
+    "text": "奇",
+    "read": "き",
+    "mora": 1.0
+   },
+   {
+    "text": "跡",
+    "read": "せき",
+    "mora": 2.0
+   }
+  ],
+  "mora": 9.0
+ },
+ {
+  "i": 24,
+  "lrc": 141.0,
+  "jp": "閉ざされてきた ゲート",
+  "latin": false,
+  "units": [
+   {
+    "text": "閉",
+    "read": "と",
+    "mora": 1.0
+   },
+   {
+    "text": "ざ",
+    "read": "ざ",
+    "mora": 1.0
+   },
+   {
+    "text": "さ",
+    "read": "さ",
+    "mora": 1.0
+   },
+   {
+    "text": "れ",
+    "read": "れ",
+    "mora": 1.0
+   },
+   {
+    "text": "て",
+    "read": "て",
+    "mora": 1.0
+   },
+   {
+    "text": "き",
+    "read": "き",
+    "mora": 1.0
+   },
+   {
+    "text": "た",
+    "read": "た",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "ゲ",
+    "read": "げ",
+    "mora": 1.0
+   },
+   {
+    "text": "ー",
+    "read": "ー",
+    "mora": 1.0
+   },
+   {
+    "text": "ト",
+    "read": "と",
+    "mora": 1.0
+   }
+  ],
+  "mora": 10.0
+ },
+ {
+  "i": 25,
+  "lrc": 145.0,
+  "jp": "「規制」は終わった",
+  "latin": false,
+  "units": [
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "規",
+    "read": "き",
+    "mora": 1.0
+   },
+   {
+    "text": "制",
+    "read": "せい",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   },
+   {
+    "text": "終",
+    "read": "お",
+    "mora": 1.0
+   },
+   {
+    "text": "わ",
+    "read": "わ",
+    "mora": 1.0
+   },
+   {
+    "text": "っ",
+    "read": "っ",
+    "mora": 1.0
+   },
+   {
+    "text": "た",
+    "read": "た",
+    "mora": 1.0
+   }
+  ],
+  "mora": 8.0
+ },
+ {
+  "i": 26,
+  "lrc": 147.0,
+  "jp": "Open the eyes",
+  "latin": true,
+  "units": [
+   {
+    "text": "Open",
+    "read": "2",
+    "mora": 2.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "the",
+    "read": "1",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "eyes",
+    "read": "1",
+    "mora": 1.0
+   }
+  ],
+  "mora": 4.0
+ },
+ {
+  "i": 27,
+  "lrc": 148.0,
+  "jp": "光速へと手を伸ばした",
+  "latin": false,
+  "units": [
+   {
+    "text": "光",
+    "read": "こう",
+    "mora": 2.0
+   },
+   {
+    "text": "速",
+    "read": "そく",
+    "mora": 2.0
+   },
+   {
+    "text": "へ",
+    "read": "へ",
+    "mora": 1.0
+   },
+   {
+    "text": "と",
+    "read": "と",
+    "mora": 1.0
+   },
+   {
+    "text": "手",
+    "read": "て",
+    "mora": 1.0
+   },
+   {
+    "text": "を",
+    "read": "を",
+    "mora": 1.0
+   },
+   {
+    "text": "伸",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "ば",
+    "read": "ば",
+    "mora": 1.0
+   },
+   {
+    "text": "し",
+    "read": "し",
+    "mora": 1.0
+   },
+   {
+    "text": "た",
+    "read": "た",
+    "mora": 1.0
+   }
+  ],
+  "mora": 12.0
+ },
+ {
+  "i": 28,
+  "lrc": 151.0,
+  "jp": "想い出のパルスが",
+  "latin": false,
+  "units": [
+   {
+    "text": "想",
+    "read": "おも",
+    "mora": 2.0
+   },
+   {
+    "text": "い",
+    "read": "い",
+    "mora": 1.0
+   },
+   {
+    "text": "出",
+    "read": "で",
+    "mora": 1.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "パ",
+    "read": "ぱ",
+    "mora": 1.0
+   },
+   {
+    "text": "ル",
+    "read": "る",
+    "mora": 1.0
+   },
+   {
+    "text": "ス",
+    "read": "す",
+    "mora": 1.0
+   },
+   {
+    "text": "が",
+    "read": "が",
+    "mora": 1.0
+   }
+  ],
+  "mora": 9.0
+ },
+ {
+  "i": 29,
+  "lrc": 153.0,
+  "jp": "飛び込む不可思議な ロジック",
+  "latin": false,
+  "units": [
+   {
+    "text": "飛",
+    "read": "と",
+    "mora": 1.0
+   },
+   {
+    "text": "び",
+    "read": "び",
+    "mora": 1.0
+   },
+   {
+    "text": "込",
+    "read": "こ",
+    "mora": 1.0
+   },
+   {
+    "text": "む",
+    "read": "む",
+    "mora": 1.0
+   },
+   {
+    "text": "不",
+    "read": "ふ",
+    "mora": 1.0
+   },
+   {
+    "text": "可",
+    "read": "か",
+    "mora": 1.0
+   },
+   {
+    "text": "思",
+    "read": "し",
+    "mora": 1.0
+   },
+   {
+    "text": "議",
+    "read": "ぎ",
+    "mora": 1.0
+   },
+   {
+    "text": "な",
+    "read": "な",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "ロ",
+    "read": "ろ",
+    "mora": 1.0
+   },
+   {
+    "text": "ジ",
+    "read": "じ",
+    "mora": 1.0
+   },
+   {
+    "text": "ッ",
+    "read": "っ",
+    "mora": 1.0
+   },
+   {
+    "text": "ク",
+    "read": "く",
+    "mora": 1.0
+   }
+  ],
+  "mora": 13.0
+ },
+ {
+  "i": 30,
+  "lrc": 159.0,
+  "jp": "Open the eyes",
+  "latin": true,
+  "units": [
+   {
+    "text": "Open",
+    "read": "2",
+    "mora": 2.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "the",
+    "read": "1",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "eyes",
+    "read": "1",
+    "mora": 1.0
+   }
+  ],
+  "mora": 4.0
+ },
+ {
+  "i": 31,
+  "lrc": 159.0,
+  "jp": "宇宙がまだ隠し持った",
+  "latin": false,
+  "units": [
+   {
+    "text": "宇",
+    "read": "う",
+    "mora": 1.0
+   },
+   {
+    "text": "宙",
+    "read": "ちゅう",
+    "mora": 2.0
+   },
+   {
+    "text": "が",
+    "read": "が",
+    "mora": 1.0
+   },
+   {
+    "text": "ま",
+    "read": "ま",
+    "mora": 1.0
+   },
+   {
+    "text": "だ",
+    "read": "だ",
+    "mora": 1.0
+   },
+   {
+    "text": "隠",
+    "read": "かく",
+    "mora": 2.0
+   },
+   {
+    "text": "し",
+    "read": "し",
+    "mora": 1.0
+   },
+   {
+    "text": "持",
+    "read": "も",
+    "mora": 1.0
+   },
+   {
+    "text": "っ",
+    "read": "っ",
+    "mora": 1.0
+   },
+   {
+    "text": "た",
+    "read": "た",
+    "mora": 1.0
+   }
+  ],
+  "mora": 12.0
+ },
+ {
+  "i": 32,
+  "lrc": 162.0,
+  "jp": "秩序のない理論",
+  "latin": false,
+  "units": [
+   {
+    "text": "秩",
+    "read": "ちつ",
+    "mora": 2.0
+   },
+   {
+    "text": "序",
+    "read": "じょ",
+    "mora": 1.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "な",
+    "read": "な",
+    "mora": 1.0
+   },
+   {
+    "text": "い",
+    "read": "い",
+    "mora": 1.0
+   },
+   {
+    "text": "理",
+    "read": "り",
+    "mora": 1.0
+   },
+   {
+    "text": "論",
+    "read": "ろん",
+    "mora": 2.0
+   }
+  ],
+  "mora": 9.0
+ },
+ {
+  "i": 33,
+  "lrc": 165.0,
+  "jp": "無限と呼ばれた点と点が",
+  "latin": false,
+  "units": [
+   {
+    "text": "無",
+    "read": "む",
+    "mora": 1.0
+   },
+   {
+    "text": "限",
+    "read": "げん",
+    "mora": 2.0
+   },
+   {
+    "text": "と",
+    "read": "と",
+    "mora": 1.0
+   },
+   {
+    "text": "呼",
+    "read": "よ",
+    "mora": 1.0
+   },
+   {
+    "text": "ば",
+    "read": "ば",
+    "mora": 1.0
+   },
+   {
+    "text": "れ",
+    "read": "れ",
+    "mora": 1.0
+   },
+   {
+    "text": "た",
+    "read": "た",
+    "mora": 1.0
+   },
+   {
+    "text": "点",
+    "read": "てん",
+    "mora": 2.0
+   },
+   {
+    "text": "と",
+    "read": "と",
+    "mora": 1.0
+   },
+   {
+    "text": "点",
+    "read": "てん",
+    "mora": 2.0
+   },
+   {
+    "text": "が",
+    "read": "が",
+    "mora": 1.0
+   }
+  ],
+  "mora": 14.0
+ },
+ {
+  "i": 34,
+  "lrc": 171.0,
+  "jp": "不正な力を借りて",
+  "latin": false,
+  "units": [
+   {
+    "text": "不",
+    "read": "ふ",
+    "mora": 1.0
+   },
+   {
+    "text": "正",
+    "read": "せい",
+    "mora": 2.0
+   },
+   {
+    "text": "な",
+    "read": "な",
+    "mora": 1.0
+   },
+   {
+    "text": "力",
+    "read": "ちから",
+    "mora": 3.0
+   },
+   {
+    "text": "を",
+    "read": "を",
+    "mora": 1.0
+   },
+   {
+    "text": "借",
+    "read": "か",
+    "mora": 1.0
+   },
+   {
+    "text": "り",
+    "read": "り",
+    "mora": 1.0
+   },
+   {
+    "text": "て",
+    "read": "て",
+    "mora": 1.0
+   }
+  ],
+  "mora": 11.0
+ },
+ {
+  "i": 35,
+  "lrc": 174.0,
+  "jp": "「再生」をする",
+  "latin": false,
+  "units": [
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "再",
+    "read": "さい",
+    "mora": 2.0
+   },
+   {
+    "text": "生",
+    "read": "せい",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "を",
+    "read": "を",
+    "mora": 1.0
+   },
+   {
+    "text": "す",
+    "read": "す",
+    "mora": 1.0
+   },
+   {
+    "text": "る",
+    "read": "る",
+    "mora": 1.0
+   }
+  ],
+  "mora": 7.0
+ },
+ {
+  "i": 36,
+  "lrc": 187.0,
+  "jp": "「０」が過去で 「１」が未来",
+  "latin": false,
+  "units": [
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "０",
+    "read": "ぜろ",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "が",
+    "read": "が",
+    "mora": 1.0
+   },
+   {
+    "text": "過",
+    "read": "か",
+    "mora": 1.0
+   },
+   {
+    "text": "去",
+    "read": "こ",
+    "mora": 1.0
+   },
+   {
+    "text": "で",
+    "read": "で",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "１",
+    "read": "いち",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "が",
+    "read": "が",
+    "mora": 1.0
+   },
+   {
+    "text": "未",
+    "read": "み",
+    "mora": 1.0
+   },
+   {
+    "text": "来",
+    "read": "らい",
+    "mora": 2.0
+   }
+  ],
+  "mora": 12.0
+ },
+ {
+  "i": 37,
+  "lrc": 198.0,
+  "jp": "並行する無数の線",
+  "latin": false,
+  "units": [
+   {
+    "text": "並",
+    "read": "へい",
+    "mora": 2.0
+   },
+   {
+    "text": "行",
+    "read": "こう",
+    "mora": 2.0
+   },
+   {
+    "text": "す",
+    "read": "す",
+    "mora": 1.0
+   },
+   {
+    "text": "る",
+    "read": "る",
+    "mora": 1.0
+   },
+   {
+    "text": "無",
+    "read": "む",
+    "mora": 1.0
+   },
+   {
+    "text": "数",
+    "read": "すう",
+    "mora": 2.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "線",
+    "read": "せん",
+    "mora": 2.0
+   }
+  ],
+  "mora": 12.0
+ },
+ {
+  "i": 38,
+  "lrc": 208.0,
+  "jp": "「０」が過去で 「１」が未来",
+  "latin": false,
+  "units": [
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "０",
+    "read": "ぜろ",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "が",
+    "read": "が",
+    "mora": 1.0
+   },
+   {
+    "text": "過",
+    "read": "か",
+    "mora": 1.0
+   },
+   {
+    "text": "去",
+    "read": "こ",
+    "mora": 1.0
+   },
+   {
+    "text": "で",
+    "read": "で",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "１",
+    "read": "いち",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "が",
+    "read": "が",
+    "mora": 1.0
+   },
+   {
+    "text": "未",
+    "read": "み",
+    "mora": 1.0
+   },
+   {
+    "text": "来",
+    "read": "らい",
+    "mora": 2.0
+   }
+  ],
+  "mora": 12.0
+ },
+ {
+  "i": 39,
+  "lrc": 211.0,
+  "jp": "「今」は何処にもない",
+  "latin": false,
+  "units": [
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "今",
+    "read": "いま",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   },
+   {
+    "text": "何",
+    "read": "ど",
+    "mora": 1.0
+   },
+   {
+    "text": "処",
+    "read": "こ",
+    "mora": 1.0
+   },
+   {
+    "text": "に",
+    "read": "に",
+    "mora": 1.0
+   },
+   {
+    "text": "も",
+    "read": "も",
+    "mora": 1.0
+   },
+   {
+    "text": "な",
+    "read": "な",
+    "mora": 1.0
+   },
+   {
+    "text": "い",
+    "read": "い",
+    "mora": 1.0
+   }
+  ],
+  "mora": 9.0
+ },
+ {
+  "i": 40,
+  "lrc": 214.0,
+  "jp": "背く事の出来ぬ ロジック",
+  "latin": false,
+  "units": [
+   {
+    "text": "背",
+    "read": "そむ",
+    "mora": 2.0
+   },
+   {
+    "text": "く",
+    "read": "く",
+    "mora": 1.0
+   },
+   {
+    "text": "事",
+    "read": "こと",
+    "mora": 2.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "出",
+    "read": "で",
+    "mora": 1.0
+   },
+   {
+    "text": "来",
+    "read": "き",
+    "mora": 1.0
+   },
+   {
+    "text": "ぬ",
+    "read": "ぬ",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "ロ",
+    "read": "ろ",
+    "mora": 1.0
+   },
+   {
+    "text": "ジ",
+    "read": "じ",
+    "mora": 1.0
+   },
+   {
+    "text": "ッ",
+    "read": "っ",
+    "mora": 1.0
+   },
+   {
+    "text": "ク",
+    "read": "く",
+    "mora": 1.0
+   }
+  ],
+  "mora": 13.0
+ },
+ {
+  "i": 41,
+  "lrc": 219.0,
+  "jp": "Open the eyes",
+  "latin": true,
+  "units": [
+   {
+    "text": "Open",
+    "read": "2",
+    "mora": 2.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "the",
+    "read": "1",
+    "mora": 1.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "eyes",
+    "read": "1",
+    "mora": 1.0
+   }
+  ],
+  "mora": 4.0
+ },
+ {
+  "i": 42,
+  "lrc": 220.0,
+  "jp": "並行する無数の線 選択は冒涜へ",
+  "latin": false,
+  "units": [
+   {
+    "text": "並",
+    "read": "へい",
+    "mora": 2.0
+   },
+   {
+    "text": "行",
+    "read": "こう",
+    "mora": 2.0
+   },
+   {
+    "text": "す",
+    "read": "す",
+    "mora": 1.0
+   },
+   {
+    "text": "る",
+    "read": "る",
+    "mora": 1.0
+   },
+   {
+    "text": "無",
+    "read": "む",
+    "mora": 1.0
+   },
+   {
+    "text": "数",
+    "read": "すう",
+    "mora": 2.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "線",
+    "read": "せん",
+    "mora": 2.0
+   },
+   {
+    "text": " ",
+    "read": "",
+    "mora": 0.0
+   },
+   {
+    "text": "選",
+    "read": "せん",
+    "mora": 2.0
+   },
+   {
+    "text": "択",
+    "read": "たく",
+    "mora": 2.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   },
+   {
+    "text": "冒",
+    "read": "ぼう",
+    "mora": 2.0
+   },
+   {
+    "text": "涜",
+    "read": "とく",
+    "mora": 2.0
+   },
+   {
+    "text": "へ",
+    "read": "へ",
+    "mora": 1.0
+   }
+  ],
+  "mora": 22.0
+ },
+ {
+  "i": 43,
+  "lrc": 225.0,
+  "jp": "僕らの「存在」さえ疑う",
+  "latin": false,
+  "units": [
+   {
+    "text": "僕",
+    "read": "ぼく",
+    "mora": 2.0
+   },
+   {
+    "text": "ら",
+    "read": "ら",
+    "mora": 1.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "存",
+    "read": "そん",
+    "mora": 2.0
+   },
+   {
+    "text": "在",
+    "read": "ざい",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "さ",
+    "read": "さ",
+    "mora": 1.0
+   },
+   {
+    "text": "え",
+    "read": "え",
+    "mora": 1.0
+   },
+   {
+    "text": "疑",
+    "read": "うたが",
+    "mora": 3.0
+   },
+   {
+    "text": "う",
+    "read": "う",
+    "mora": 1.0
+   }
+  ],
+  "mora": 14.0
+ },
+ {
+  "i": 44,
+  "lrc": 231.0,
+  "jp": "その目に映る景色は",
+  "latin": false,
+  "units": [
+   {
+    "text": "そ",
+    "read": "そ",
+    "mora": 1.0
+   },
+   {
+    "text": "の",
+    "read": "の",
+    "mora": 1.0
+   },
+   {
+    "text": "目",
+    "read": "め",
+    "mora": 1.0
+   },
+   {
+    "text": "に",
+    "read": "に",
+    "mora": 1.0
+   },
+   {
+    "text": "映",
+    "read": "うつ",
+    "mora": 2.0
+   },
+   {
+    "text": "る",
+    "read": "る",
+    "mora": 1.0
+   },
+   {
+    "text": "景",
+    "read": "け",
+    "mora": 1.0
+   },
+   {
+    "text": "色",
+    "read": "しき",
+    "mora": 2.0
+   },
+   {
+    "text": "は",
+    "read": "は",
+    "mora": 1.0
+   }
+  ],
+  "mora": 11.0
+ },
+ {
+  "i": 45,
+  "lrc": 234.0,
+  "jp": "「収束」をする",
+  "latin": false,
+  "units": [
+   {
+    "text": "「",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "収",
+    "read": "しゅう",
+    "mora": 2.0
+   },
+   {
+    "text": "束",
+    "read": "そく",
+    "mora": 2.0
+   },
+   {
+    "text": "」",
+    "read": "_",
+    "mora": 0.0
+   },
+   {
+    "text": "を",
+    "read": "を",
+    "mora": 1.0
+   },
+   {
+    "text": "す",
+    "read": "す",
+    "mora": 1.0
+   },
+   {
+    "text": "る",
+    "read": "る",
+    "mora": 1.0
+   }
+  ],
+  "mora": 7.0
+ }
+]

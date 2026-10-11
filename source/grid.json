@@ -1,0 +1,12 @@
+{
+ "sr": 48000,
+ "fps": 30,
+ "samples_per_frame": 1600,
+ "bpm": 167.0,
+ "beat_period_samples": 17245.509,
+ "first_beat_sample": 8400,
+ "downbeat_index_offset": 0,
+ "onbeat_vs_offbeat": 1.182,
+ "duration_samples": 13180386,
+ "downbeat_method": "section-change loudness jumps (source/downbeat.py)"
+}
