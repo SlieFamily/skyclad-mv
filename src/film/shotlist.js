@@ -8,6 +8,14 @@ const snapB = t => beatTime(Math.round(beatAt(t)));
 function cutTo(at, kind, s) { CUT_LIST.push([at, kind]); SCENES.push(s); return s; }
 const mk = (id, look, draw, o = {}) => ({ id, look, draw, bg: o.bg });
 
+/* cut points follow the sung line they open (source/lyrics.json) */
+const _at = (i, d) => LINES[i].first + d;
+const CUT = {
+  gate1: _at(7, -0.04), ch1a: _at(10, -0.04), ch1b: _at(13, -0.18), conv1: _at(16, -0.04),
+  v2b: _at(20, -0.04), gate2: _at(24, -0.04), ch2a: _at(27, -0.1), ch2b: _at(30, -0.5),
+  fa: _at(38, -0.56), fb: _at(41, -0.66), fin: _at(44, -0.55),
+};
+
 /* 0 — 24.61  C: title + credits */
 SCENES.push(mk('C-title', 'space', cTitle()));
 
@@ -15,39 +23,39 @@ SCENES.push(mk('C-title', 'space', cTitle()));
 cutTo(24.61, 'surface', mk('A-verse1', 'crt', aVerse1v3()));
 
 /* 54.79 — 61.97  A: the gate (quantum circuit on the scope) */
-cutTo(54.79, 'dive', mk('A-gate1', 'crt', aGate({ t0: 54.79, head: 'THE GATE', gate: 7, kisei: 8, open: 9, results: [0, 1, 1] })));
+cutTo(CUT.gate1, 'dive', mk('A-gate1', 'crt', aGate({ t0: CUT.gate1, head: 'THE GATE', gate: 7, kisei: 8, open: 9, results: [0, 1, 1] })));
 
 /* 61.97 — 71.49  A: chorus 1a */
-cutTo(61.97, 'hard', mk('A-chorus1a', 'crt', aChorusA({ zero: 10, now: 11, logic: 12 })));
+cutTo(CUT.ch1a, 'hard', mk('A-chorus1a', 'crt', aChorusA({ zero: 10, now: 11, logic: 12 })));
 
 /* 71.49 — 84.97  A: chorus 1b — eye, parallel traces, 存在 */
-cutTo(71.49, 'hard', mk('A-chorus1b', 'crt', aChorus1bv3()));
+cutTo(CUT.ch1b, 'hard', mk('A-chorus1b', 'crt', aChorus1bv3()));
 
 /* 84.97 — 91.30  A: convergence on the scope */
-cutTo(84.97, 'hard', mk('A-converge1', 'crt', aConverge({ keshiki: 16, shusoku: 17 })));
+cutTo(CUT.conv1, 'hard', mk('A-converge1', 'crt', aConverge({ keshiki: 16, shusoku: 17 })));
 
 /* 91.30 — 123.41  A: interlude + verse 2a */
 cutTo(91.30, 'hard', mk('A-interlude', 'crt', aInterlude({ t0: 91.30 })));
 
 /* 123.41 — 141.01  A: verse 2b — four staged shots */
-cutTo(123.41, 'hard', mk('A-verse2b', 'crt', aVerse2bv3()));
+cutTo(CUT.v2b, 'hard', mk('A-verse2b', 'crt', aVerse2bv3()));
 
 /* 141.01 — 148.20  A: gate 2 */
-cutTo(141.01, 'hard', mk('A-gate2', 'crt', aGate({ t0: 141.01, head: 'THE GATE, CLOSED', gate: 24, kisei: 25, open: 26, results: [1, 0, 1] })));
+cutTo(CUT.gate2, 'hard', mk('A-gate2', 'crt', aGate({ t0: CUT.gate2, head: 'THE GATE, CLOSED', gate: 24, kisei: 25, open: 26, results: [1, 0, 1] })));
 
 /* 148.20 — 157.40  C: chorus 2a (light-speed) */
 const SPEED2 = t => 1 + 2.4 * easeInOut(smoothstep(148.3, 150.4, t)) - 1.6 * easeInOut(smoothstep(152.8, 154.2, t));
-cutTo(148.20, 'dive', mk('C-chorus2a', 'space', cScene({
-  t0: 147.6, t1: 158.0, seed: 41, speed: SPEED2,
+cutTo(CUT.ch2a, 'dive', mk('C-chorus2a', 'space', cScene({
+  t0: 147.6, t1: CUT.ch2b + 1.2, seed: 41, speed: SPEED2,
   lines: [27, 28, 29],
-  splits: splitsEvery(148.0, 158.0, 2),
+  splits: splitsEvery(148.0, CUT.ch2b + 1.2, 2),
   formulas: [{ name: 'dilation', at: 149.6, side: 1 }, { name: 'energy', at: 151.4, side: -1 }, { name: 'fourier', at: 153.4, side: 1 }],
   sky: t => ({ streak: 0.35 * (SPEED2(t) - 1) }),
   extra: (g, t, cam, Wd) => pulses(g, t, cam, Wd, 151.2, 153.4),
 })));
 
 /* 157.40 — 176.94  A: chorus 2b */
-cutTo(157.40, 'surface', mk('A-chorus2b', 'crt', aChorus2b({})));
+cutTo(CUT.ch2b, 'surface', mk('A-chorus2b', 'crt', aChorus2b({})));
 
 /* 176.94 — 208.00  C: the bridge — the worldline tree */
 const WIDE = t => easeInOut(smoothstep(177.3, 181.8, t));
@@ -74,18 +82,18 @@ cutTo(176.94, 'dive', mk('C-bridge', 'space', cScene({
     const cz = cam.C[2] + 900, p0 = Wd.chosenAt(cz).p, q0 = proj(cam, p0[0], p0[1] - 120, cz);
     const h = headOnScreen(Wd, t, cam);
     if (q0) drawTex(g, 'ket0', q0.x, q0.y + 70, 120, { color: '#ffb347', alpha: a, glow: BL(16) });
-    if (h) drawTex(g, 'ket1', h.x + 40, h.y + 90, 120, { color: '#ffb347', alpha: a * smoothstep(188.0, 188.4, t), glow: BL(16) });
+    if (h) drawTex(g, 'ket1', h.x + 40, h.y + 90, 120, { color: '#ffb347', alpha: a * smoothstep(uAt(L, '１') - 0.04, uAt(L, '１') + 0.36, t), glow: BL(16) });
   },
 })));
 
 /* 208.00 — 217.60  A: final chorus a */
-cutTo(208.00, 'surface', mk('A-chorus-final-a', 'crt', aChorusA({ zero: 38, now: 39, logic: 40 })));
+cutTo(CUT.fa, 'surface', mk('A-chorus-final-a', 'crt', aChorusA({ zero: 38, now: 39, logic: 40 })));
 
 /* 217.60 — 231.00  C: final chorus b */
-cutTo(217.60, 'dive', mk('C-chorus-final-b', 'space', cScene({
-  t0: 217.0, t1: 231.6, seed: 67, V: 600,
+cutTo(CUT.fb, 'dive', mk('C-chorus-final-b', 'space', cScene({
+  t0: CUT.fb - 0.6, t1: 231.6, seed: 67, V: 600,
   lines: [41, 42, 43],
-  splits: [...splitsEvery(217.3, 219.6, 2), ...splitsEvery(219.7, 223.8, 1), ...splitsEvery(224.4, 231.6, 2)],
+  splits: [...splitsEvery(CUT.fb - 0.3, LINES[42].first - 0.1, 2), ...splitsEvery(LINES[42].first, 223.8, 1), ...splitsEvery(224.4, 231.6, 2)],
   formulas: [{ name: 'everett', at: 221.9, side: 1, h: 64 }, { name: 'born', at: 226.4, side: -1 }],
   sky: t => ({ mid: '#1a0712', bot: '#0a0306' }),
   extra: (g, t, cam, Wd) => eyeOverlay(g, t, LINES[41], '#ffb0a0'),
@@ -99,4 +107,4 @@ cutTo(217.60, 'dive', mk('C-chorus-final-b', 'space', cScene({
 
 /* 231.00 — end  A: the finale */
 const FINALE = aFinale({});
-cutTo(231.00, 'surface', mk('A-finale', 'crt', (g, t, io) => { const r = FINALE(g, t, io); powerOff(g, t, 271.2); return r; }));
+cutTo(CUT.fin, 'surface', mk('A-finale', 'crt', (g, t, io) => { const r = FINALE(g, t, io); powerOff(g, t, 271.2); return r; }));

@@ -1,46 +1,46 @@
- 0 lrc   26.0 prior   25.89 ->  26.043 bar16  0  end  28.558  rate 2   pooled conf 1.38  過去は離れて行き
- 1 lrc   28.0 prior   28.00 ->  28.019 bar16  6  end  31.522  rate 2   pooled conf 1.36  未来は近づくの?
- 2 lrc   31.0 prior   30.89 ->  31.432 bar16 12  end  37.540  rate 2   pooled conf 1.36  観測者はいつか 矛盾に気付く
- 3 lrc   37.0 prior   36.89 ->  37.540 bar16  0  end  40.594  rate 2   pooled conf 1.33  神の創り出した世界は
- 4 lrc   40.0 prior   40.39 ->  40.953 bar16  6  end  47.600  rate 2   pooled conf 1.37  完全なるもので 絶対の均衡
- 5 lrc   48.0 prior   47.89 ->  48.319 bar16  8  end  52.540  rate 2   pooled conf 1.29  それは折り重なる偶然
- 6 lrc   52.0 prior   51.89 ->  52.630 bar16  8  end  54.516  rate 2   pooled conf 1.27  宇宙規模の奇跡
- 7 lrc   54.0 prior   54.39 ->  54.786 bar16  0  end  58.558  rate 2   pooled conf 1.30  守られてきた ゲート
- 8 lrc   58.0 prior   58.39 ->  59.097 bar16  0  end  61.522  rate 2   pooled conf 1.36  「規制」は終わった
- 9 lrc   61.0 prior   60.89 ->  60.444 bar16 15  end  61.522  rate 2   pooled conf 1.12  Open the eyes
-10 lrc   61.0 prior   61.40 ->  61.971 bar16  0  end  64.576  rate 2   pooled conf 1.35  「０」が過去で 「１」が未来
-11 lrc   64.0 prior   64.40 ->  64.846 bar16  0  end  67.540  rate 2   pooled conf 1.29  「今」は何処にもない
-12 lrc   67.0 prior   67.06 ->  66.822 bar16  6  end  72.570  rate 2   pooled conf 1.26  背く事の出来ぬ ロジック
-13 lrc   72.0 prior   72.40 ->  71.672 bar16 12  end  73.558  rate 2   pooled conf 1.36  Open the eyes
-14 lrc   73.0 prior   73.06 ->  73.109 bar16 12  end  79.576  rate 2   pooled conf 1.29  並行する無数の線 選択は冒涜へ
-15 lrc   79.0 prior   78.73 ->  79.037 bar16 14  end  84.965  rate 2   pooled conf 1.30  僕らの「存在」さえ疑う
-16 lrc   85.0 prior   84.73 ->  84.965 bar16  0  end  87.570  rate 2   pooled conf 1.34  その目に映る景色は
-17 lrc   87.0 prior   87.40 ->  88.019 bar16  2  end  92.690  rate 2   pooled conf 1.32  「収束」をする
-18 lrc  112.0 prior  112.11 -> 112.091 bar16 14  end 117.570  rate 2   pooled conf 1.38  二つの針が指す 時間の概念も
-19 lrc  117.0 prior  117.11 -> 117.660 bar16 12  end 123.588  rate 2   pooled conf 1.29  観測者しだいで 歪みを見せる
-20 lrc  123.0 prior  123.11 -> 123.409 bar16 12  end 127.540  rate 2   pooled conf 1.37  神に与えられた英知は
-21 lrc  127.0 prior  126.61 -> 127.181 bar16  6  end 133.828  rate 2   pooled conf 1.37  必ず「果て」がある 絶対の領域
-22 lrc  134.0 prior  134.11 -> 134.546 bar16  8  end 138.588  rate 2   pooled conf 1.31  それは愚か故の偶然
-23 lrc  138.0 prior  138.11 -> 138.858 bar16  8  end 141.552  rate 2   pooled conf 1.36  招かれざる奇跡
-24 lrc  141.0 prior  140.61 -> 141.013 bar16  0  end 145.594  rate 2   pooled conf 1.39  閉ざされてきた ゲート
-25 lrc  145.0 prior  144.61 -> 145.325 bar16  0  end 147.570  rate 2   pooled conf 1.38  「規制」は終わった
-26 lrc  147.0 prior  147.11 -> 146.762 bar16  0  end 148.558  rate 2   pooled conf 1.29  Open the eyes
-27 lrc  148.0 prior  147.62 -> 148.379 bar16  2  end 151.522  rate 2   pooled conf 1.33  光速へと手を伸ばした
-28 lrc  151.0 prior  150.62 -> 151.253 bar16  2  end 153.588  rate 2   pooled conf 1.23  想い出のパルスが
-29 lrc  153.0 prior  153.29 -> 153.409 bar16 10  end 159.157  rate 2   pooled conf 1.28  飛び込む不可思議な ロジック
-30 lrc  159.0 prior  158.62 -> 157.900 bar16 12  end 159.516  rate 2   pooled conf 1.51  Open the eyes
-31 lrc  159.0 prior  159.29 -> 159.876 bar16  2  end 162.570  rate 2   pooled conf 1.30  宇宙がまだ隠し持った
-32 lrc  162.0 prior  162.00 -> 162.211 bar16 12  end 165.534  rate 2   pooled conf 1.20  秩序のない理論
-33 lrc  165.0 prior  164.96 -> 164.906 bar16 10  end 170.834  rate 2   pooled conf 1.35  無限と呼ばれた点と点が
-34 lrc  171.0 prior  170.96 -> 171.193 bar16  0  end 174.516  rate 2   pooled conf 1.31  不正な力を借りて
-35 lrc  174.0 prior  173.62 -> 174.247 bar16  2  end 178.918  rate 2   pooled conf 1.32  「再生」をする
-36 lrc  187.0 prior  187.00 -> 187.001 bar16  0  end 192.570  rate 2          conf 1.39  「０」が過去で 「１」が未来
-37 lrc  198.0 prior  198.00 -> 198.947 bar16  5  end 204.247  rate 4          conf 1.82  並行する無数の線
-38 lrc  208.0 prior  207.98 -> 208.558 bar16  0  end 211.522  rate 2   pooled conf 1.57  「０」が過去で 「１」が未来
-39 lrc  211.0 prior  210.98 -> 211.432 bar16  0  end 214.576  rate 2   pooled conf 1.42  「今」は何処にもない
-40 lrc  214.0 prior  213.65 -> 213.409 bar16  6  end 219.157  rate 2   pooled conf 1.32  背く事の出来ぬ ロジック
-41 lrc  219.0 prior  218.98 -> 218.259 bar16 12  end 220.594  rate 2   pooled conf 1.34  Open the eyes
-42 lrc  220.0 prior  219.65 -> 219.696 bar16 12  end 225.534  rate 2   pooled conf 1.30  並行する無数の線 選択は冒涜へ
-43 lrc  225.0 prior  225.32 -> 225.624 bar16 14  end 231.552  rate 2   pooled conf 1.30  僕らの「存在」さえ疑う
-44 lrc  231.0 prior  231.32 -> 231.552 bar16  0  end 234.516  rate 2   pooled conf 1.28  その目に映る景色は
-45 lrc  234.0 prior  233.98 -> 234.786 bar16  4  end 239.456  rate 2   pooled conf 1.32  「収束」をする
+ 0 lrc   26.0 ->  26.013  end  28.793  conf 0.35  過去は離れて行き  ka ko wa hana re te yu ki
+ 1 lrc   28.0 ->  28.893  end  31.163  conf 0.34  未来は近づくの?  mi rai wa chika zu ku no
+ 2 lrc   31.0 ->  31.783  end  36.603  conf 0.29  観測者はいつか 矛盾に気付く  kan soku sha wa i tsu ka mu jun ni ki zu ku
+ 3 lrc   37.0 ->  37.003  end  40.313  conf 0.32  神の創り出した世界は  kami no tsuku ri da shi ta se kai wa
+ 4 lrc   40.0 ->  40.743  end  47.840  conf 0.40  完全なるもので 絶対の均衡  kan zen na ru mo no de zet tai no kin kou
+ 5 lrc   48.0 ->  48.413  end  51.813  conf 0.36  それは折り重なる偶然  so re wa o ri kasa na ru guu zen
+ 6 lrc   52.0 ->  52.263  end  54.753  conf 0.35  宇宙規模の奇跡  u chuu ki bo no ki seki
+ 7 lrc   54.0 ->  54.783  end  58.580  conf 0.36  守られてきた ゲート  mamo ra re te ki ta ge e to
+ 8 lrc   58.0 ->  58.913  end  60.553  conf 0.20  「規制」は終わった  ki sei wa o wa t ta
+ 9 lrc   61.0 ->  60.973  end  61.940  conf 0.07  Open the eyes  open the eyes
+10 lrc   61.0 ->  61.963  end  64.443  conf 0.19  「０」が過去で 「１」が未来  zero ga ka ko de ichi ga mi rai
+11 lrc   64.0 ->  64.673  end  67.393  conf 0.36  「今」は何処にもない  ima wa do ko ni mo na i
+12 lrc   67.0 ->  67.703  end  72.433  conf 0.25  背く事の出来ぬ ロジック  somu ku koto no de ki nu ro ji k ku
+13 lrc   72.0 ->  72.573  end  73.440  conf 0.09  Open the eyes  open the eyes
+14 lrc   73.0 ->  73.463  end  78.923  conf 0.31  並行する無数の線 選択は冒涜へ  hei kou su ru mu suu no sen sen taku wa bou toku e
+15 lrc   79.0 ->  79.193  end  84.243  conf 0.27  僕らの「存在」さえ疑う  boku ra no son zai sa e utaga u
+16 lrc   85.0 ->  84.913  end  87.793  conf 0.21  その目に映る景色は  so no me ni utsu ru ke shiki wa
+17 lrc   87.0 ->  87.803  end  90.633  conf 0.09  「収束」をする  shuu soku o su ru
+18 lrc  112.0 -> 112.293  end 117.423  conf 0.35  二つの針が指す 時間の概念も  futa tsu no hari ga sa su ji kan no gai nen mo
+19 lrc  117.0 -> 118.013  end 122.903  conf 0.29  観測者しだいで 歪みを見せる  kan soku sha shi da i de yuga mi o mi se ru
+20 lrc  123.0 -> 123.223  end 126.593  conf 0.42  神に与えられた英知は  kami ni ata e ra re ta ei chi wa
+21 lrc  127.0 -> 126.993  end 133.763  conf 0.35  必ず「果て」がある 絶対の領域  kanara zu ha te ga a ru zet tai no ryou iki
+22 lrc  134.0 -> 134.643  end 138.013  conf 0.36  それは愚か故の偶然  so re wa oro ka yue no guu zen
+23 lrc  138.0 -> 138.493  end 140.883  conf 0.38  招かれざる奇跡  mane ka re za ru ki seki
+24 lrc  141.0 -> 141.003  end 144.800  conf 0.30  閉ざされてきた ゲート  to za sa re te ki ta ge e to
+25 lrc  145.0 -> 145.113  end 146.793  conf 0.32  「規制」は終わった  ki sei wa o wa t ta
+26 lrc  147.0 -> 147.103  end 148.140  conf 0.03  Open the eyes  open the eyes
+27 lrc  148.0 -> 148.193  end 150.713  conf 0.23  光速へと手を伸ばした  kou soku e to te o no ba shi ta
+28 lrc  151.0 -> 150.883  end 153.623  conf 0.37  想い出のパルスが  omo i de no pa ru su ga
+29 lrc  153.0 -> 153.913  end 158.703  conf 0.24  飛び込む不可思議な ロジック  to bi ko mu fu ka shi gi na ro ji k ku
+30 lrc  159.0 -> 158.793  end 159.660  conf 0.04  Open the eyes  open the eyes
+31 lrc  159.0 -> 159.693  end 162.163  conf 0.16  宇宙がまだ隠し持った  u chuu ga ma da kaku shi mo t ta
+32 lrc  162.0 -> 162.363  end 165.143  conf 0.27  秩序のない理論  chitsu jo no na i ri ron
+33 lrc  165.0 -> 165.443  end 170.293  conf 0.36  無限と呼ばれた点と点が  mu gen to yo ba re ta ten to ten ga
+34 lrc  171.0 -> 171.193  end 173.893  conf 0.36  不正な力を借りて  fu sei na chikara o ka ri te
+35 lrc  174.0 -> 174.013  end 176.903  conf 0.25  「再生」をする  sai sei o su ru
+36 lrc  187.0 -> 186.960  end 192.529  conf 0.01  「０」が過去で 「１」が未来  (beat-grid fallback)
+37 lrc  198.0 -> 198.443  end 201.373  conf 0.03  並行する無数の線  hei kou su ru mu suu no sen
+38 lrc  208.0 -> 208.533  end 211.003  conf 0.36  「０」が過去で 「１」が未来  zero ga ka ko de ichi ga mi rai
+39 lrc  211.0 -> 211.333  end 213.953  conf 0.39  「今」は何処にもない  ima wa do ko ni mo na i
+40 lrc  214.0 -> 214.273  end 219.043  conf 0.23  背く事の出来ぬ ロジック  somu ku koto no de ki nu ro ji k ku
+41 lrc  219.0 -> 219.153  end 220.020  conf 0.00  Open the eyes  open the eyes
+42 lrc  220.0 -> 220.033  end 225.453  conf 0.26  並行する無数の線 選択は冒涜へ  hei kou su ru mu suu no sen sen taku wa bou toku e
+43 lrc  225.0 -> 225.793  end 230.813  conf 0.37  僕らの「存在」さえ疑う  boku ra no son zai sa e utaga u
+44 lrc  231.0 -> 231.523  end 234.373  conf 0.37  その目に映る景色は  so no me ni utsu ru ke shiki wa
+45 lrc  234.0 -> 234.413  end 237.293  conf 0.28  「収束」をする  shuu soku o su ru

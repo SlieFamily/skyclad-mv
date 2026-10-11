@@ -40,8 +40,8 @@ playwright install chromium
 # 渲染 1080p30
 python tools/render.py --w 1920 --h 1080 --fps 30 --out out/video_1080p30.mp4
 
-# GPU 加速（NVIDIA 显卡）
-python tools/render.py --w 2560 --h 1440 --fps 60 --encoder nvenc --crf 18 --jobs 6 --shot jpeg --out out/video_1440p60.mp4
+# GPU 加速（NVIDIA 显卡）：发布版 2560×1440 60fps
+python tools/render.py --w 2560 --h 1440 --fps 60 --jobs 6 --shot jpeg --encoder nvenc --crf 18 --out out/skyclad-observer_1440p60.mp4
 ```
 
 **参数**：
@@ -75,18 +75,24 @@ skyclad-observer-release/
 ├── source/
 │   ├── music.flac          # ⚠️ 不在版本库中，需自行提供
 │   ├── lyrics.lrc          # 原始 LRC 歌词
-│   ├── lyrics.json         # 逐字对齐后的歌词（align.py 生成）
+│   ├── lyrics.json         # 逐字对齐后的歌词（align_ctc.py 生成）
+│   ├── lyrics_dp.json      # 节拍网格对齐（align.py 生成，align_ctc.py 的回退）
 │   ├── grid.json           # 节拍网格（tempo.py + downbeat.py 生成）
 │   ├── form.json           # 曲式结构（form.py 生成）
 │   ├── tempo.py            # BPM 检测
 │   ├── downbeat.py         # 小节线检测
 │   ├── form.py             # 曲式分析
 │   ├── parse_lrc.py        # LRC 解析
-│   ├── align.py            # 人声对齐（逐字时间戳）
+│   ├── readings.py         # 每个显示字符的假名读音（parse_lrc.py / align_ctc.py 共用）
+│   ├── align.py            # 节拍网格对齐（无 ML，回退用）
+│   ├── vocals.py           # Demucs 分离人声 -> vocals.wav（⚠️ 不在版本库中）
+│   ├── align_ctc.py        # MMS CTC 强制对齐（逐字时间戳）
+│   ├── align_report.txt    # align_ctc.py 的逐行报告（时间、置信度、罗马音）
 │   └── audio_feat.py       # 音频特征提取
 ├── tools/
 │   ├── render.py           # Playwright 批量渲染
 │   ├── probe.py            # 快速截图诊断
+│   ├── align_sheet.py      # 歌词对齐 QA：每行一张人声频谱图
 │   ├── fontsheet.py        # 字体测试
 │   ├── facecheck.py        # 字形检查
 │   └── gpucheck.py         # WebGL 检查
@@ -94,8 +100,11 @@ skyclad-observer-release/
 │   ├── mediabunny.min.js   # WebCodecs MP4 muxer (MPL-2.0)
 │   └── mediabunny.LICENSE
 ├── docs/
-│   └── brief.md            # 设计简报
+│   ├── brief.md            # 设计简报
+│   ├── prompts.md          # 创作过程中的提示词记录
+│   └── qa/align/           # 歌词对齐频谱图 line_00.png ~ line_45.png
 ├── requirements.txt
+├── requirements-align.txt  # 歌词对齐依赖（torch / torchaudio / demucs）
 ├── .gitignore
 └── README.md
 ```
@@ -112,7 +121,9 @@ python tempo.py              # 检测 BPM -> grid.json
 python downbeat.py           # 检测小节线 -> 更新 grid.json
 python form.py               # 曲式分析 -> form.json
 python parse_lrc.py          # 解析 LRC -> lines.json
-python align.py              # 人声对齐 -> lyrics.json
+python align.py && cp lyrics.json lyrics_dp.json   # 节拍网格对齐（回退）
+python vocals.py             # 人声分离 -> vocals.wav（需 requirements-align.txt）
+python align_ctc.py          # CTC 强制对齐 -> lyrics.json
 python audio_feat.py         # 音频特征 -> ../src/aud.js
 cd ../src/
 python make_data.py          # 打包数据 -> data.js
@@ -120,9 +131,57 @@ python texbuild.py           # 渲染公式 -> tex.js（需要 TeX Live 或 MiKT
 ```
 
 **依赖**：
-- **Python 3.12+**，安装 `requirements.txt`
+- **Python 3.12+**，安装 `requirements.txt`；歌词对齐另需 `requirements-align.txt`（torch CPU 版即可，国内可用清华源 `-i https://pypi.tuna.tsinghua.edu.cn/simple`；模型约 1.3 GB，用 `TORCH_HOME` 指定缓存目录）
 - **LaTeX**：TeX Live 或 MiKTeX（含 `dvisvgm`）
 - **FFmpeg**：音频解码和视频编码
+
+---
+
+## 歌词对齐
+
+`src/data.js` 里的逐字时间来自歌手的人声本身，而不是节拍网格。每个字在开始发声的那一帧出现。
+
+### 各脚本的作用
+
+| 脚本 | 输入 | 输出 | 作用 |
+|---|---|---|---|
+| `source/parse_lrc.py` | `lyrics.lrc`、`readings.py` | `lines.json` | 把每行拆成显示单位（一字一个），附上假名读音和拍数（mora） |
+| `source/align.py` | `music.flac`、`lines.json` | `lyrics.json` → 另存为 `lyrics_dp.json` | 无 ML 的节拍网格对齐，只作为回退 |
+| `source/vocals.py` | `music.flac` | `vocals.wav` | Demucs htdemucs 分离人声（44.1 kHz 立体声），有 CUDA 时自动用 GPU |
+| `source/align_ctc.py` | `vocals.wav`、`lines.json`、`lyrics_dp.json` | `lyrics.json`、`align_report.txt` | 假名转罗马音，用 torchaudio MMS_FA（wav2vec2 CTC）做 Viterbi 强制对齐，再把起音吸附到 ±60 ms 内的频谱通量峰值。平均置信度低于 0.02 的日文行沿用 `lyrics_dp.json` 的时间（平移到 CTC 行首） |
+| `src/make_data.py` | `lyrics.json`、`grid.json`、`beats.json` | `src/data.js` | 把歌词内联进页面，`file://` 下也能用 |
+| `tools/align_sheet.py` | `lyrics.json`、`vocals.wav`、可选旧 JSON | `out/qa/align/line_XX.png` | 每行一张频谱图，用来人工核对 |
+
+### 运行顺序
+
+```bash
+pip install -r requirements-align.txt
+# 国内：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements-align.txt
+
+python source/parse_lrc.py
+python source/align.py && cp source/lyrics.json source/lyrics_dp.json
+python source/vocals.py                          # -> source/vocals.wav
+python source/align_ctc.py                       # -> source/lyrics.json + align_report.txt
+python -I src/make_data.py                       # -> src/data.js
+python tools/align_sheet.py source/lyrics_dp.json   # -> out/qa/align/（可选）
+```
+
+`align_sheet.py` 输出到 `out/qa/align/`（已被忽略）；要更新仓库里的示例，把图片复制到 `docs/qa/align/`。它写死了 Windows 字体 `C:/Windows/Fonts/meiryo.ttc`，其他系统需改成本机的日文字体。
+
+`TORCH_HOME` 可以把模型缓存（Demucs 约 80 MB、MMS_FA 约 1.2 GB）放到别的盘。CPU 就能跑完。
+
+**版权**：`vocals.wav` 是从商业音源分离出的人声，已被 `.gitignore`（`source/*.wav`）排除，请勿提交或分发。
+
+### 频谱图怎么看
+
+仓库里附了一份结果：[docs/qa/align/](docs/qa/align/)，每行一张 `line_XX.png`，编号就是歌词行号（从 0 开始，对应 `align_report.txt` 第一列）。
+
+- 背景是人声轨的频谱（0–5 kHz，横轴 400 px/秒，底部是秒数刻度）
+- **红线 + 黄字**：新的时间点（当前 `lyrics.json`，CTC 对齐）
+- **灰色虚线 + 灰字**：旧的节拍网格时间（传给 `align_sheet.py` 的旧 JSON，这里是 `lyrics_dp.json`）
+- 红线应该落在一段亮纹开始的地方，也就是开始发声的位置
+
+`align_report.txt` 里 `conf` 低的行（如 Open the eyes）和标了 `beat-grid fallback` 的行最值得对着频谱图和音频再确认一遍。
 
 ---
 
@@ -220,12 +279,14 @@ python tools/gpucheck.py      # WebGL 可用性和 ANGLE 后端
 
 ---
 
+## 创作记录
+
+- 创作过程中的提示词记录：[docs/prompts.md](docs/prompts.md)
+
+---
+
 ## 致谢
 
 - 原曲：志倉千代丸（作词・作曲）、いとうかなこ（演唱）
 - 设计与实现：（开发者信息）
 - WebCodecs 编码库：[Mediabunny](https://mediabunny.dev/)
-
----
-
-**更新于 2025 年 1 月**

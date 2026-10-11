@@ -196,8 +196,8 @@ function shotGalaxy(g, t) {
 /* A verse-1 scene that sequences the six shots above, each cut on its line */
 function aVerse1v3() {
   const shots = [
-    [24.6, shotPastFuture], [lineOf(2).first - 0.5, shotContradiction], [lineOf(3).first - 0.4, shotGodWorld],
-    [lineOf(4).first - 0.3, shotBalance], [lineOf(5).first - 0.4, shotGalton], [lineOf(6).first - 0.3, shotGalaxy],
+    [24.6, shotPastFuture], [lineOf(2).first - 0.04, shotContradiction], [lineOf(3).first - 0.04, shotGodWorld],
+    [lineOf(4).first - 0.04, shotBalance], [lineOf(5).first - 0.04, shotGalton], [lineOf(6).first - 0.04, shotGalaxy],
   ];
   return aScene((g, t) => {
     let k = 0; while (k + 1 < shots.length && t >= shots[k + 1][0]) k++;
@@ -355,7 +355,7 @@ function aVerse2bv3() {
   const L0 = lineOf(20), L1 = lineOf(21), L2 = lineOf(22), L3 = lineOf(23);
   const FORM = ['euler', 'schrod', 'efe', 'uncert', 'interval', 'kepler'];
   return aScene((g, t) => {
-    if (t < L1.first - 0.3) {
+    if (t < L1.first - 0.04) {
       /* knowledge granted: formulas orbit the globe */
       drawGlobe(g, t, W / 2, 560, 220, 0.7);
       FORM.forEach((f, i) => {
@@ -363,7 +363,7 @@ function aVerse2bv3() {
         drawTex(g, f, W / 2 + Math.cos(th) * 620, 560 + Math.sin(th) * 280, 48, { color: rgba(CC.cyan, 1), alpha: a * (0.5 + 0.5 * Math.sin(th)) });
       });
       aLyric(g, L0, t, { x: W / 2, y: 140, size: 132, maxW: 1640, oneRow: true, colors: { '神': CC.white, '英': CC.amber, '知': CC.amber } });
-    } else if (t < L2.first - 0.3) {
+    } else if (t < L2.first - 0.04) {
       horizon(g, t, L1);
       /* the type spirals toward the horizon after it lands */
       /* the line sits under the horizon; once the whole line is sung it is pulled in */
@@ -374,7 +374,7 @@ function aVerse2bv3() {
         return { x: lerp(xT, W / 2 + Math.cos(th) * r * (1 - k * 0.85), k), y: lerp(yT, 560 + Math.sin(th) * r * (1 - k * 0.85), k), sc: 1 - k * 0.6 };
       }, { colors: { '果': CC.amber, 'て': CC.amber, '絶': CC.white, '対': CC.white } });
       drawTex(g, 'schw', 1600, 190, 80, { color: rgba(CC.amber, 1), reveal: smoothstep(L1.first, L1.first + 1, t) });
-    } else if (t < L3.first - 0.3) {
+    } else if (t < L3.first - 0.04) {
       /* dice of light: random bits that keep rerolling */
       for (let i = 0; i < 6; i++) {
         const v = 1 + Math.floor(hash1(Math.floor(t * 8) * 13 + i * 7) * 6), x = 360 + i * 240, y = 330;

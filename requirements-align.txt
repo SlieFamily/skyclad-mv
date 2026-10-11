@@ -1,0 +1,8 @@
+# lyric alignment only (source/vocals.py, source/align_ctc.py); CPU is enough.
+# China: pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements-align.txt
+torch==2.5.1
+torchaudio==2.5.1
+demucs==4.0.1
+soundfile==0.12.1
+numpy==2.5.3
+pillow==12.3.0
